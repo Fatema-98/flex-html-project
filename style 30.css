@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.navigation-ber{
+	display: flex;
+	flex-flow: wrap row;
+	list-style: none;
+	background-color: #126e82;
+	margin: 0;
+	justify-content: flex-end;
+	padding: 20px;
+
+
+}
+
+.navigation-ber a{
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	color: #51c4d3;
+	margin: 10px;
+    text-transform: uppercase;
+
+}
+
+.navigation-ber a:hover{
+	background-color: #da7f8f;
+}
+
+
+.service-section{
+	display: flex;
+	background: #126e82;
+	padding: 30px;
+}
+
+.card{
+	background-color: #289672;
+	border: 1px solid #ff6701;
+	padding: 30px;
+	min-width: 300px;
+}
+
+.one{
+	margin-right: 15px;
+}
+
+.two{
+	margin-right: 15px;
+}
+
+.card h1{
+	text-align: center;
+}
+
+.card p{
+	text-align: justify;
+}
